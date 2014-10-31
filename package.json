@@ -1,0 +1,17 @@
+{
+  "name"        : "censored",
+  "version"     : "0.0.1",
+  "author"      : "Narciso Guillen <guillen.narciso@gmail.com>",
+
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/narcisoguillen/censored.git"
+  },
+
+  "dependencies": {
+    "underscore" : "1.7.x"
+  },
+
+  "devDependencies": {
+  }
+}
