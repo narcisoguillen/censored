@@ -2,7 +2,13 @@
 
 Easy and simple way to censore Objects
 
+##Install
+
+     npm install censored
+
 ##From
+
+    var censored = require('censored');
 
     censore({
       username: 'narciso@domain.com',

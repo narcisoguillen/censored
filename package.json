@@ -1,7 +1,13 @@
 {
   "name"        : "censored",
   "version"     : "0.0.1",
-  "author"      : "Narciso Guillen <guillen.narciso@gmail.com>",
+  "description":  "Easy way to censore objects",
+  "author"      : "Narciso Guillen <guillen.narciso@onelogin.com>",
+  "keywords": [
+    "censore",
+    "hide",
+    "log"
+  ],
 
   "repository": {
     "type": "git",
