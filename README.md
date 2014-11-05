@@ -1,6 +1,6 @@
 #Censored
 
-Easy and simple way to censore Objects. This package will return a new censored Object based on the original.
+Easy and simple way to censor Objects. This package will return a new censored Object based on the original.
 
 ##Install
 

@@ -1,6 +1,6 @@
 {
   "name"        : "censored",
-  "version"     : "0.0.1",
+  "version"     : "0.0.2",
   "description":  "Easy way to censore objects",
   "author"      : "Narciso Guillen <guillen.narciso@onelogin.com>",
   "keywords": [
