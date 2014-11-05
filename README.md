@@ -8,9 +8,9 @@ Easy and simple way to censore Objects
 
 ##From
 
-    var censored = require('censored');
+    var censor = require('censored');
 
-    censore({
+    var obj = censor({
       username: 'narciso@domain.com',
       password: 'taquitos',
       credentials: {
@@ -35,7 +35,7 @@ Easy and simple way to censore Objects
 
 By default is `*`
 
-    censore.set('char', '_');
+    censor.set('char', '_');
 
     {
       username: '_____________n.com',
@@ -48,7 +48,7 @@ By default is `*`
 
 ##How many chars you want to see ?
 
-     censore.set('showLast', '3');
+     censor.set('showLast', '3');
 
      {
       username: '***************com',
@@ -61,7 +61,7 @@ By default is `*`
 
 ##Set a handler for an attribute
 
-     censore.add('username', function(value){
+     censor.add('username', function(value){
        return 'awesome !';
      });
 
